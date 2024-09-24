@@ -13,4 +13,4 @@ jobs:
         run: |
           node --version
           cat requirements.txt
-          npm install -r requirements.txt
+          npm --version
