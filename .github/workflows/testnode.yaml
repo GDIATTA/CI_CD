@@ -14,3 +14,4 @@ jobs:
           node --version
           npm --version
           npm install formidable@latest
+          npm install --save-dev jest
