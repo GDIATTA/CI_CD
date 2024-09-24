@@ -12,6 +12,5 @@ jobs:
           REPO_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           node --version
-          cat package.json
           npm --version
-          npm install -r package.json
+          npm install
