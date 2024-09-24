@@ -12,3 +12,4 @@ jobs:
           REPO_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           node --version
+          cat requirements.txt
