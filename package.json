@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest"
-    "test2": "jest"
+    "test2": "jest test_sum"
   },
   "dependencies": {
     "formidable": "^2.1.1"
