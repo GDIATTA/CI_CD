@@ -18,4 +18,4 @@ jobs:
           npm test
       - name: Test funct add
         run: |
-          npm test2
+          npm run test2
