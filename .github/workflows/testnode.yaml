@@ -18,4 +18,4 @@ jobs:
           npm test
       - name: Test funct add
         run: |
-          node test_sum.js
+          npm test2
