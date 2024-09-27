@@ -1,4 +1,4 @@
 // sum of two variables a+b
-function increment(a,b) {
+function add(a,b) {
     return a+b;
 }
