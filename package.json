@@ -4,8 +4,7 @@
   "description": "Your project description",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
-    "test2": "jest test_sum"
+    "test": "jest"
   },
   "dependencies": {
     "formidable": "^2.1.1"
