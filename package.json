@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest"
+    "test2": "jest"
   },
   "dependencies": {
     "formidable": "^2.1.1"
