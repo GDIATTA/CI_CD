@@ -7,7 +7,7 @@ jobs:
       - uses: actions/checkout@v3
         with:
           ref: ${{ github.event.pull_request.head.sha }}
-      - name: Test funct inc and dec
+      - name: Test
         env:
           REPO_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
@@ -16,6 +16,3 @@ jobs:
           npm install formidable@latest
           npm install --save-dev jest
           npm test
-      - name: Test funct add
-        run: |
-          npm run test2
